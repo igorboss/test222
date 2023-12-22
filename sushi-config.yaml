@@ -1,0 +1,21 @@
+id: test
+canonical: https://fhir.ee/ImplementationGuide/test
+name: test
+title: test
+status: draft
+version: 0.0.1
+fhirVersion: 5.0.0
+copyrightYear: 2024+
+releaseLabel: ballot
+publisher: 
+ name: fhir.ee
+
+pages:
+  code-system-list.md:
+    title: Code system list
+  roadmap.md:
+    title: Roadmap
+
+menu:
+  Code system list: code-system-list.html
+  Roadmap: roadmap.html
