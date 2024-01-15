@@ -6,6 +6,14 @@
   "identifier" : [ {
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.3.6.1.4.1.28284.6.2.1.278"
+  }, {
+    "type" : {
+      "coding" : [ {
+        "code" : "version"
+      } ]
+    },
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.28284.6.2.1.278.5"
   } ],
   "version" : "5",
   "versionAlgorithmString" : "integer",
@@ -35,99 +43,228 @@
     "uri" : "http://terminology.hl7.org/CodeSystem/designation-usage|display",
     "description" : "Display",
     "type" : "string"
+  }, {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Status",
+    "type" : "code"
   } ],
   "concept" : [ {
     "code" : "101",
-    "display" : "B-viirushepatiit"
+    "display" : "B-viirushepatiit",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "102",
-    "display" : "difteeria"
+    "display" : "difteeria",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "103",
-    "display" : "hemofiilus-nakkus"
+    "display" : "hemofiilus-nakkus",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "104",
-    "display" : "leetrid"
+    "display" : "leetrid",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "105",
-    "display" : "läkaköha"
+    "display" : "läkaköha",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "106",
-    "display" : "mumps"
+    "display" : "mumps",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "107",
-    "display" : "poliomüeliit"
+    "display" : "poliomüeliit",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "108",
-    "display" : "punetised"
+    "display" : "punetised",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "109",
-    "display" : "teetanus"
+    "display" : "teetanus",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "110",
-    "display" : "tuberkuloos"
+    "display" : "tuberkuloos",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "111",
-    "display" : "rotaviirusnakkus"
+    "display" : "rotaviirusnakkus",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "201",
-    "display" : "A-viirushepatiit"
+    "display" : "A-viirushepatiit",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "202",
-    "display" : "gripp"
+    "display" : "gripp",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "203",
-    "display" : "HPV-nakkus"
+    "display" : "HPV-nakkus",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "204",
-    "display" : "katk"
+    "display" : "katk",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "205",
-    "display" : "kollapalavik"
+    "display" : "kollapalavik",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "206",
-    "display" : "koolera"
+    "display" : "koolera",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "207",
-    "display" : "kõhutüüfus"
+    "display" : "kõhutüüfus",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "208",
-    "display" : "marutõbi"
+    "display" : "marutõbi",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "209",
-    "display" : "meningokokk-infektsioon"
+    "display" : "meningokokk-infektsioon",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "210",
-    "display" : "pneumokokk-infektsioon"
+    "display" : "pneumokokk-infektsioon",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "211",
-    "display" : "puukentsefaliit"
+    "display" : "puukentsefaliit",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "212",
-    "display" : "siberi katk"
+    "display" : "siberi katk",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "213",
-    "display" : "tuulerõuged"
+    "display" : "tuulerõuged",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "214",
-    "display" : "jaapani entsefaliit"
+    "display" : "jaapani entsefaliit",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "215",
-    "display" : "rõuged"
+    "display" : "rõuged",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "216",
-    "display" : "vöötohatis"
+    "display" : "vöötohatis",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "217",
-    "display" : "RS-viirusinfektsioon"
+    "display" : "RS-viirusinfektsioon",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "218",
-    "display" : "dengue palavik"
+    "display" : "dengue palavik",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "219",
-    "display" : "COVID-19"
+    "display" : "COVID-19",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   }, {
     "code" : "220",
-    "display" : "ahvirõuged"
+    "display" : "ahvirõuged",
+    "property" : [ {
+      "code" : "status",
+      "valueCode" : "active"
+    } ]
   } ]
 }

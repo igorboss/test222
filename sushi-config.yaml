@@ -8,7 +8,7 @@ fhirVersion: 5.0.0
 copyrightYear: 2024+
 releaseLabel: ballot
 publisher: 
- name: fhir.ee
+  name: fhir.ee
 
 pages:
   code-system-list.md:

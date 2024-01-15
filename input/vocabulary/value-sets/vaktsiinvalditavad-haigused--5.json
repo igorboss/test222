@@ -10,8 +10,17 @@
   "identifier" : [ {
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.3.6.1.4.1.28284.6.2.1.278"
+  }, {
+    "type" : {
+      "coding" : [ {
+        "code" : "version"
+      } ]
+    },
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.28284.6.2.1.278.5"
   } ],
   "version" : "5",
+  "name" : "VaktsiinvalditavadHaigused",
   "title" : "Vaktsiinvälditavad haigused ja haigustekitajad",
   "status" : "draft",
   "experimental" : false,
@@ -26,10 +35,12 @@
       "value" : "https://tehik.ee/"
     } ]
   } ],
+  "description" : "Vaktsiinvälditavad haigused ja haigustekitajad - kasutatakse siis, kui arst edastab patsiendi vaktsineerimise andmeid.",
   "endorser" : [ {
     "name" : "Terviseamet"
   } ],
   "compose" : {
+    "inactive" : false,
     "include" : [ {
       "system" : "https://fhir.ee/CodeSystem/vaktsiinvalditavad-haigused",
       "version" : "5"
