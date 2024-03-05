@@ -8,8 +8,6 @@ Description: "The use of an address."
 * ^extension[=].valueUrl = "https://termx.kodality.dev/fhir/ValueSet/address-use"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 * ^extension[=].valueCode = #executable
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/workflow-relatedArtifact"
-* ^extension[=].valueRelatedArtifact.resource = "http://hl7.org/fhir/ValueSet/address-use"
 * ^url = "http://hl7.org/fhir/address-use"
 * ^version = "4.3.0"
 * ^status = #active
