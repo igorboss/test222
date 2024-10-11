@@ -3,9 +3,8 @@ Id: address-use--4.3.0
 Title: "AddressUse"
 Description: "The use of an address."
 * ^language = #en
-* ^text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/address-use defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">home<a name=\"address-use-home\"> </a></td><td>Home</td><td>A communication address at a home.</td></tr><tr><td style=\"white-space:nowrap\">work<a name=\"address-use-work\"> </a></td><td>Work</td><td>An office address. First choice for business related contacts during business hours.</td></tr><tr><td style=\"white-space:nowrap\">temp<a name=\"address-use-temp\"> </a></td><td>Temporary</td><td>A temporary address. The period can provide more detailed information.</td></tr><tr><td style=\"white-space:nowrap\">old<a name=\"address-use-old\"> </a></td><td>Old / Incorrect</td><td>This address is no longer in use (or was never correct but retained for records).</td></tr><tr><td style=\"white-space:nowrap\">billing<a name=\"address-use-billing\"> </a></td><td>Billing</td><td>An address to be used to send bills, invoices, receipts etc.</td></tr></table></div>"
 * ^extension[0].url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
-* ^extension[=].valueUrl = "https://termx.kodality.dev/fhir/ValueSet/address-use"
+* ^extension[=].valueUrl = "https://termx.kodality.dev/fhir/CodeSystem/address-use"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeRepresentationLevel"
 * ^extension[=].valueCode = #executable
 * ^url = "http://hl7.org/fhir/address-use"
